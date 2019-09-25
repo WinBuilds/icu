@@ -38,7 +38,7 @@
     <ProjectGuid>{1988DC68-B31B-44C2-BDE8-C4000D9A3140}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>date</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

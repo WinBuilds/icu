@@ -58,7 +58,7 @@
     <ProjectGuid>{F50DA6FA-C4C6-4388-9C11-458318D42862}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>genrb</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

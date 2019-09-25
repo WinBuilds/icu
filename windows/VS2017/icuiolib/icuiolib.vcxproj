@@ -45,7 +45,7 @@
     <ProjectGuid>{8CB7FA41-D7AC-40B3-821D-6E4423ABCD88}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>icuiolib</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
