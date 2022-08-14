@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\test\intltest\aliastst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\allcoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\alphaindextst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\apicoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\astrotst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\bidiconf.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\bytestrietest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\calcasts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\callimts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\calregts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\caltest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\caltztst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\canittst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\citrtest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\collationtest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\colldata.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\compactdecimalformattest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\convtest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\cpdtrtst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\csdetest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\currcoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\dadrcal.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\dadrfmt.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\datadrivennumberformattestsuite.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\dcfmapts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\dcfmtest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\decoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\dtfmapts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\dtfmrgts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\dtfmtrtts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\dtfmttst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\dtifmtts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\dtptngts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\encoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\erarulestest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\escoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\ficoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\fldset.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\frcoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\g7coll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\genderinfotest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\icusvtst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\idnaconf.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\idnaref.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\incaltst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\intltest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\itercoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\itformat.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\itmajor.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\itrbbi.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\itrbnf.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\itrbnfp.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\itrbnfrt.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\itspoof.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\ittrans.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\itutil.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\jacoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\jamotest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\lcukocol.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\listformattertest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\locnmtst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\loctest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\measfmttest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\miscdtfm.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\mnkytst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\msfmrgts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\nmfmapts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\nmfmtrt.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\normconf.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\nptrans.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numberformattesttuple.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_affixutils.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_api.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_decimalquantity.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_doubleconversion.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_modifiers.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_parse.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_patternmodifier.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_patternstring.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_range.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_skeletons.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_stringbuilder.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numbertest_stringsegment.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numfmtdatadriventest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numfmtspectest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numfmtst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\numrgts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\pluralmaptest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\plurfmts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\plurults.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\pptest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\punyref.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\quantityformattertest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\rbbiapts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\rbbimonkeytest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\rbbitst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\regcoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\regextst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\regiontst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\reldatefmttest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\reptest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\restest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\restsnew.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\scientificnumberformattertest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\sdtfmtts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\selfmts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\sfwdchit.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\simpleformattertest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\simplethread.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\srchtest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\ssearch.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\static_unisets_test.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\strcase.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\strtest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\svccoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tchcfmt.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\testidn.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\testidna.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\testutil.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\textfile.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tfsmalls.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\thcoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tmsgfmt.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tokiter.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\transapi.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\transrt.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\transtst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\trcoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\trnserr.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tscoll.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tsdate.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tsdcfmsy.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tsdtfmsy.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tsmthred.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tsnmfmt.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tsputil.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tstnorm.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tstnrapi.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tufmtts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tzbdtest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tzfmttst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tzoffloc.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tzregts.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tzrulets.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\tztest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\ucaconf.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\ucdtest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\ucharstrietest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\unifiedcachetest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\uobjtest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\usettest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\ustrtest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\uts46test.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\utxttest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\uvectest.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\v32test.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\windttst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\winnmtst.cpp" />
+    <ClCompile Include="..\..\..\test\intltest\winutil.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\test\intltest\aliastst.h" />
+    <ClInclude Include="..\..\..\test\intltest\allcoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\alphaindextst.h" />
+    <ClInclude Include="..\..\..\test\intltest\apicoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\astrotst.h" />
+    <ClInclude Include="..\..\..\test\intltest\calcasts.h" />
+    <ClInclude Include="..\..\..\test\intltest\callimts.h" />
+    <ClInclude Include="..\..\..\test\intltest\calregts.h" />
+    <ClInclude Include="..\..\..\test\intltest\caltest.h" />
+    <ClInclude Include="..\..\..\test\intltest\caltestdata.h" />
+    <ClInclude Include="..\..\..\test\intltest\caltztst.h" />
+    <ClInclude Include="..\..\..\test\intltest\canittst.h" />
+    <ClInclude Include="..\..\..\test\intltest\citrtest.h" />
+    <ClInclude Include="..\..\..\test\intltest\colldata.h" />
+    <ClInclude Include="..\..\..\test\intltest\convtest.h" />
+    <ClInclude Include="..\..\..\test\intltest\cpdtrtst.h" />
+    <ClInclude Include="..\..\..\test\intltest\csdetest.h" />
+    <ClInclude Include="..\..\..\test\intltest\currcoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\dadrcal.h" />
+    <ClInclude Include="..\..\..\test\intltest\dadrfmt.h" />
+    <ClInclude Include="..\..\..\test\intltest\datadrivennumberformattestsuite.h" />
+    <ClInclude Include="..\..\..\test\intltest\dcfmapts.h" />
+    <ClInclude Include="..\..\..\test\intltest\dcfmtest.h" />
+    <ClInclude Include="..\..\..\test\intltest\decoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\dtfmapts.h" />
+    <ClInclude Include="..\..\..\test\intltest\dtfmrgts.h" />
+    <ClInclude Include="..\..\..\test\intltest\dtfmtrtts.h" />
+    <ClInclude Include="..\..\..\test\intltest\dtfmttst.h" />
+    <ClInclude Include="..\..\..\test\intltest\dtifmtts.h" />
+    <ClInclude Include="..\..\..\test\intltest\dtptngts.h" />
+    <ClInclude Include="..\..\..\test\intltest\encoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\erarulestest.h" />
+    <ClInclude Include="..\..\..\test\intltest\escoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\ficoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\fldset.h" />
+    <ClInclude Include="..\..\..\test\intltest\frcoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\g7coll.h" />
+    <ClInclude Include="..\..\..\test\intltest\icusvtst.h" />
+    <ClInclude Include="..\..\..\test\intltest\idnaconf.h" />
+    <ClInclude Include="..\..\..\test\intltest\idnaref.h" />
+    <ClInclude Include="..\..\..\test\intltest\incaltst.h" />
+    <ClInclude Include="..\..\..\test\intltest\intltest.h" />
+    <ClInclude Include="..\..\..\test\intltest\itercoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\itformat.h" />
+    <ClInclude Include="..\..\..\test\intltest\itmajor.h" />
+    <ClInclude Include="..\..\..\test\intltest\itrbbi.h" />
+    <ClInclude Include="..\..\..\test\intltest\itrbnf.h" />
+    <ClInclude Include="..\..\..\test\intltest\itrbnfp.h" />
+    <ClInclude Include="..\..\..\test\intltest\itrbnfrt.h" />
+    <ClInclude Include="..\..\..\test\intltest\itspoof.h" />
+    <ClInclude Include="..\..\..\test\intltest\ittrans.h" />
+    <ClInclude Include="..\..\..\test\intltest\itutil.h" />
+    <ClInclude Include="..\..\..\test\intltest\jacoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\jamotest.h" />
+    <ClInclude Include="..\..\..\test\intltest\lcukocol.h" />
+    <ClInclude Include="..\..\..\test\intltest\listformattertest.h" />
+    <ClInclude Include="..\..\..\test\intltest\locnmtst.h" />
+    <ClInclude Include="..\..\..\test\intltest\loctest.h" />
+    <ClInclude Include="..\..\..\test\intltest\miscdtfm.h" />
+    <ClInclude Include="..\..\..\test\intltest\mnkytst.h" />
+    <ClInclude Include="..\..\..\test\intltest\msfmrgts.h" />
+    <ClInclude Include="..\..\..\test\intltest\nmfmapts.h" />
+    <ClInclude Include="..\..\..\test\intltest\nmfmtrt.h" />
+    <ClInclude Include="..\..\..\test\intltest\normconf.h" />
+    <ClInclude Include="..\..\..\test\intltest\nptrans.h" />
+    <ClInclude Include="..\..\..\test\intltest\numberformattesttuple.h" />
+    <ClInclude Include="..\..\..\test\intltest\numbertest.h" />
+    <ClInclude Include="..\..\..\test\intltest\numfmtst.h" />
+    <ClInclude Include="..\..\..\test\intltest\numrgts.h" />
+    <ClInclude Include="..\..\..\test\intltest\plurfmts.h" />
+    <ClInclude Include="..\..\..\test\intltest\plurults.h" />
+    <ClInclude Include="..\..\..\test\intltest\pptest.h" />
+    <ClInclude Include="..\..\..\test\intltest\punyref.h" />
+    <ClInclude Include="..\..\..\test\intltest\rbbiapts.h" />
+    <ClInclude Include="..\..\..\test\intltest\rbbimonkeytest.h" />
+    <ClInclude Include="..\..\..\test\intltest\rbbitst.h" />
+    <ClInclude Include="..\..\..\test\intltest\regcoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\regextst.h" />
+    <ClInclude Include="..\..\..\test\intltest\regiontst.h" />
+    <ClInclude Include="..\..\..\test\intltest\reptest.h" />
+    <ClInclude Include="..\..\..\test\intltest\restest.h" />
+    <ClInclude Include="..\..\..\test\intltest\restsnew.h" />
+    <ClInclude Include="..\..\..\test\intltest\sdtfmtts.h" />
+    <ClInclude Include="..\..\..\test\intltest\selfmts.h" />
+    <ClInclude Include="..\..\..\test\intltest\sfwdchit.h" />
+    <ClInclude Include="..\..\..\test\intltest\simplethread.h" />
+    <ClInclude Include="..\..\..\test\intltest\srchtest.h" />
+    <ClInclude Include="..\..\..\test\intltest\ssearch.h" />
+    <ClInclude Include="..\..\..\test\intltest\strtest.h" />
+    <ClInclude Include="..\..\..\test\intltest\svccoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\tchcfmt.h" />
+    <ClInclude Include="..\..\..\test\intltest\testidna.h" />
+    <ClInclude Include="..\..\..\test\intltest\testutil.h" />
+    <ClInclude Include="..\..\..\test\intltest\textfile.h" />
+    <ClInclude Include="..\..\..\test\intltest\tfsmalls.h" />
+    <ClInclude Include="..\..\..\test\intltest\thcoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\tmsgfmt.h" />
+    <ClInclude Include="..\..\..\test\intltest\tokiter.h" />
+    <ClInclude Include="..\..\..\test\intltest\transapi.h" />
+    <ClInclude Include="..\..\..\test\intltest\transrt.h" />
+    <ClInclude Include="..\..\..\test\intltest\transtst.h" />
+    <ClInclude Include="..\..\..\test\intltest\trcoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\trnserr.h" />
+    <ClInclude Include="..\..\..\test\intltest\tscoll.h" />
+    <ClInclude Include="..\..\..\test\intltest\tsdate.h" />
+    <ClInclude Include="..\..\..\test\intltest\tsdcfmsy.h" />
+    <ClInclude Include="..\..\..\test\intltest\tsdtfmsy.h" />
+    <ClInclude Include="..\..\..\test\intltest\tsmthred.h" />
+    <ClInclude Include="..\..\..\test\intltest\tsnmfmt.h" />
+    <ClInclude Include="..\..\..\test\intltest\tsputil.h" />
+    <ClInclude Include="..\..\..\test\intltest\tstnorm.h" />
+    <ClInclude Include="..\..\..\test\intltest\tzbdtest.h" />
+    <ClInclude Include="..\..\..\test\intltest\tzfmttst.h" />
+    <ClInclude Include="..\..\..\test\intltest\tzoffloc.h" />
+    <ClInclude Include="..\..\..\test\intltest\tzregts.h" />
+    <ClInclude Include="..\..\..\test\intltest\tzrulets.h" />
+    <ClInclude Include="..\..\..\test\intltest\tztest.h" />
+    <ClInclude Include="..\..\..\test\intltest\ucaconf.h" />
+    <ClInclude Include="..\..\..\test\intltest\ucdtest.h" />
+    <ClInclude Include="..\..\..\test\intltest\uobjtest.h" />
+    <ClInclude Include="..\..\..\test\intltest\usettest.h" />
+    <ClInclude Include="..\..\..\test\intltest\ustrtest.h" />
+    <ClInclude Include="..\..\..\test\intltest\utxttest.h" />
+    <ClInclude Include="..\..\..\test\intltest\uvectest.h" />
+    <ClInclude Include="..\..\..\test\intltest\v32test.h" />
+    <ClInclude Include="..\..\..\test\intltest\windttst.h" />
+    <ClInclude Include="..\..\..\test\intltest\winnmtst.h" />
+    <ClInclude Include="..\..\..\test\intltest\winutil.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\icuindll\icuindll.vcxproj">
+      <Project>{0572c33e-1ef4-4324-8c41-5335939c71d5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\icutestdll\icutestdll.vcxproj">
+      <Project>{bd40c751-ddab-44e3-9c7e-920dd8897108}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\icutudll\icutudll.vcxproj">
+      <Project>{a91acd36-83c5-44ce-bd98-8d9c3424888d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\icuucdll\icuucdll.vcxproj">
+      <Project>{40878bb9-d3ab-4fbd-81b4-8b297cdef95b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{FAE28CA3-D2BC-45CC-858E-52C56F65EA93}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>intltest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/bin/</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\common;$(SolutionDir)..\..\i18n;$(SolutionDir)..\..\tools\toolutil;$(SolutionDir)..\..\tools\ctestfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\common;$(SolutionDir)..\..\i18n;$(SolutionDir)..\..\tools\toolutil;$(SolutionDir)..\..\tools\ctestfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\common;$(SolutionDir)..\..\i18n;$(SolutionDir)..\..\tools\toolutil;$(SolutionDir)..\..\tools\ctestfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\common;$(SolutionDir)..\..\i18n;$(SolutionDir)..\..\tools\toolutil;$(SolutionDir)..\..\tools\ctestfw;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

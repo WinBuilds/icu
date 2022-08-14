@@ -51,7 +51,7 @@ PKGMODE=static
 ICD=$(ICUDATA)^\
 DATA_PATH=$(ICUP)\data^\
 
-ICUTOOLS=$(WINBUILDS_ROOT)build_msvc15_$(CFG)\bin
+ICUTOOLS=$(WINBUILDS_ROOT)build_msvc16_$(CFG)\bin
 PATH = $(ICUTOOLS);$(PATH)
 
 # Make sure the necessary tools exist before continuing. (This is to prevent cryptic errors from NMAKE).

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\test\cintltst\bocu1tst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\callcoll.c" />
+    <ClCompile Include="..\..\..\test\cintltst\calltest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\capitst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cbiapts.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cbididat.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cbiditransformtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cbiditst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cbkittst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\ccaltst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\ccapitst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\ccolltst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cconvtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cctest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\ccurrtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cdateintervalformattest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cdattst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cdetst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cdtdptst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cdtrgtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cestst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cfintst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cformtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cfrtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cg7coll.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cgendtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\chashtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cintltst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\citertst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cjaptst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cldrtest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cloctst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cmsccoll.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cmsgtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cnmdptst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cnormtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cnumtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cpluralrulestest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cposxtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\crelativedateformattest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\crestst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\creststn.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cstrcase.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cstrtest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cturtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cucdapi.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cucdtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\currtest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\custrtrn.c" />
+    <ClCompile Include="..\..\..\test\cintltst\custrtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\cutiltst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\encoll.c" />
+    <ClCompile Include="..\..\..\test\cintltst\eurocreg.c" />
+    <ClCompile Include="..\..\..\test\cintltst\hpmufn.c" />
+    <ClCompile Include="..\..\..\test\cintltst\idnatest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\nccbtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\ncnvfbts.c" />
+    <ClCompile Include="..\..\..\test\cintltst\ncnvtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\nfsprep.c" />
+    <ClCompile Include="..\..\..\test\cintltst\nucnvtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\putiltst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\reapits.c" />
+    <ClCompile Include="..\..\..\test\cintltst\sorttest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\spooftest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\spreptst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\sprpdata.c" />
+    <ClCompile Include="..\..\..\test\cintltst\stdnmtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\tracetst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\trie2test.c" />
+    <ClCompile Include="..\..\..\test\cintltst\trietest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\ucnvseltst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\ucptrietest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\ucsdetst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\udatatst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\udatpg_test.c" />
+    <ClCompile Include="..\..\..\test\cintltst\uenumtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\ulistfmttest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\unumberformattertst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\uregiontest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\usettest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\usrchdat.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\test\cintltst\usrchtst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\utexttst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\utf16tst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\utf8tst.c" />
+    <ClCompile Include="..\..\..\test\cintltst\utmstest.c" />
+    <ClCompile Include="..\..\..\test\cintltst\utransts.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\test\cintltst\callcoll.h" />
+    <ClInclude Include="..\..\..\test\cintltst\calldata.h" />
+    <ClInclude Include="..\..\..\test\cintltst\capitst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cbiapts.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cbiditst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\ccaltst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\ccapitst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\ccolltst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\ccurrtst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cdattst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cdetst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cdtdptst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cdtrgtst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cestst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cfintst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cformtst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cfrtst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cg7coll.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cintltst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\citertst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cjaptst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cloctst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cmsgtst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cnmdptst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cnormtst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cnumtst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\crestst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\creststn.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cturtst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\cucdapi.h" />
+    <ClInclude Include="..\..\..\test\cintltst\encoll.h" />
+    <ClInclude Include="..\..\..\test\cintltst\nccbtst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\ncnvfbts.h" />
+    <ClInclude Include="..\..\..\test\cintltst\nfsprep.h" />
+    <ClInclude Include="..\..\..\test\cintltst\nucnvtst.h" />
+    <ClInclude Include="..\..\..\test\cintltst\ucnvseltst.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\icuindll\icuindll.vcxproj">
+      <Project>{0572c33e-1ef4-4324-8c41-5335939c71d5}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\icutestdll\icutestdll.vcxproj">
+      <Project>{bd40c751-ddab-44e3-9c7e-920dd8897108}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\icutudll\icutudll.vcxproj">
+      <Project>{a91acd36-83c5-44ce-bd98-8d9c3424888d}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\icuucdll\icuucdll.vcxproj">
+      <Project>{40878bb9-d3ab-4fbd-81b4-8b297cdef95b}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{95818E8E-373D-41A7-A2D5-B231E29C1CC9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>cintltst</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/bin/</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/obj/$(ProjectName)/</IntDir>
+    <OutDir>$(WINBUILDS_ROOT)build_msvc16_$(Platform)/$(Configuration)/bin/</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;U_ATTRIBUTE_DEPRECATED=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>..\..\..\common;..\..\..\tools\ctestfw;..\..\..\i18n;..\..\..\tools\toolutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;U_ATTRIBUTE_DEPRECATED=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>..\..\..\common;..\..\..\tools\ctestfw;..\..\..\i18n;..\..\..\tools\toolutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;U_ATTRIBUTE_DEPRECATED=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>..\..\..\common;..\..\..\tools\ctestfw;..\..\..\i18n;..\..\..\tools\toolutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;U_ATTRIBUTE_DEPRECATED=;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4996</DisableSpecificWarnings>
+      <AdditionalIncludeDirectories>..\..\..\common;..\..\..\tools\ctestfw;..\..\..\i18n;..\..\..\tools\toolutil;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
